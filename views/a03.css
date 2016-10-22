@@ -1,0 +1,94 @@
+body{
+	background-image: url("img/bg.jpg");
+	padding-top: 60px;
+	padding-bottom: 10px;
+	font-size: large;
+	font-family: Verdana, sans-serif;
+	color: #333333;
+}
+
+#brown{
+	color: black;
+}
+
+#tableFooter {
+	color: red;
+}
+
+#center {
+	text-align: center;
+}
+
+.fb {
+	background: url("img/fb.jpg") no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.li {
+	background: url("img/li.jpg") no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.gh {
+	background: url("img/gh.jpg") no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.bb {
+	background: url("img/bb.jpg") no-repeat 6px center;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+#myPic{
+
+	width:180px;
+	height:180px;
+	border-radius: 50%;
+	margin-left: 700px;
+}
+
+.p {
+	color:black;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+td a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+td a:hover {
+    background-color: white;
+}
+
+#footer {
+	background:grey;
+	padding: 2px;
+	width:100%;
+	position:absolute;
+	text-align: center;
+	bottom:0;
+	left:0;
+}
+
+#products {
+	top: 200px;
+	margin-left: 45%;
+	position: absolute;
+}
+
+.image {
+	width: 200px; 
+	height:200px;
+}

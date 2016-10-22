@@ -1,0 +1,52 @@
+<% include header %>
+<script src="jsLogic.js"></script>
+<h2 align="center">!!Big discounts!!</h2>
+    <div id="products">
+	<form name="shopForm">
+    <table>
+        <tr>
+            <td><img src="img/note.jpg" class="image"></td>
+            <td><img src="img/pen.jpg" class="image"></td>
+            <td><img src="img/pencil.jpg" class="image"></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="note" />Notebooks Set ($5)</td>
+            <td><input type="checkbox" name="pen" />Pen Set ($4)</td>
+            <td><input type="checkbox" name="pencil" />Pencil Set ($3)</td>
+        </tr>
+        </table>
+        </div>
+		<table>
+            <tr>
+                <td>Full Name</td>
+                <td><input type="text" class="textbox" value="" required></td>
+			</tr>
+			<tr>
+				<td>Email ID</td>
+				<td><input type="email" class="textbox" value="" required></td>
+            </tr>
+			<tr>
+                <td>Total</td>
+                <td><input type="text"  id="total" value=""/></td>
+            </tr>
+            <tr>
+                <td></td>
+				<td><button type="button" onclick="calc()">Calulate Total</button>					</td>
+            </tr>
+			<tr>
+                <td></td>
+				<td><button type="button" onclick="discount()">Apply Discount</button></td>
+            </tr>
+			<tr>
+				<td></td>
+                <td><b>Total after discount</b></td>
+                <td><input type="text"  id="discTotal" value=""/></td>
+            </tr>
+			<tr>
+			<td></td>
+            <td></td>
+			<td><button type="button" onclick="order()">Order Now</button></td>
+            </tr>	
+            </table>
+			</form>
+<% include footer %>			
