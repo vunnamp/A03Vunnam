@@ -7,8 +7,8 @@ var app = express();  // make express app
 var http = require('http').Server(app);
 
 // set up the view engine
-app.use(express.static(__dirname + '/views'));
-app.set("views", path.resolve(__dirname, "views")); // path to views
+app.use(express.static(__dirname + '/assets'));
+app.set("views", path.resolve(__dirname, "assets")); // path to assets
 app.set("view engine", "ejs"); // specify our view engine
 
 // manage our entries
@@ -47,7 +47,7 @@ app.post("/new-entry", function (request, response) {
     content: request.body.body,
     published: new Date()
   });
-  response.redirect("/");
+  response.redirect("/index");
 });
 
 // 404
